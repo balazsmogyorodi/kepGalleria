@@ -1,0 +1,88 @@
+div {
+   
+    margin: auto;
+}
+
+.gombJobbra{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-image: url("kepek/nyil-informacios-matrica.jpg");
+    background-size: 80px;
+    background-color: aliceblue;
+ background-position: center;
+ 
+}
+.gombBalra{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-image: url("kepek/nyil-informacios-matrica-bal.jpg");
+    background-size: 80px;
+    background-color: aliceblue;
+ background-position: center;
+ 
+}
+.gombGalleria{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-image: url("kepek/poty.jpg");
+    background-size: 80px;
+    background-color: aliceblue;
+ background-position: center;
+ 
+}
+
+div.kepMezo{
+border: 1px solid black;
+
+
+}
+
+.kepTartalom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+}
+.informaciosMezo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+        border: 1px solid black;
+}
+article.kepGaleria{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article.egyKep{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.fomenu, .elore, .vissza {
+    width: 100px;
+    height: 80%;
+}
+
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 80px;
+
+}
+
+.nyil {
+    width: 50%;
+    height: 50%;
+    border: 0px solid aliceblue none;
+    margin: auto;
+    padding: 0px;
+   margin-top: 12px;
+}
